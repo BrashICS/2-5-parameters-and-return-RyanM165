@@ -11,3 +11,18 @@
 
 'use strict';
 
+// Raise a base to an exponent and print the result
+function exponent(base, exp) {
+    let answer = base**exp;
+    console.log(answer);    // Could also be done without the variable
+}
+
+
+let Celsius = (Fahrenheit - 32) * 5/9
+let Fahrenheit = (Celsius * 9/5) + 32
+
+let f = to_fahrenheit(37);  
+console.log(f);             
+
+f = to_fahrenheit(20);
+console.log(f);
